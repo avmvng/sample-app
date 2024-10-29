@@ -1,0 +1,23 @@
+:root {
+  font-family: Helvetica, sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+body {
+  background-color: #c54b8c; /* Main background color */
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke-color: rgb(164, 247, 164);
+  -webkit-text-stroke-width: 2px;
+}
+
+p {
+  font-size: 1.25rem;
+  margin-bottom: 0px;
+  color: rgb(164, 247, 164);
+}

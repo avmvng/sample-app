@@ -1,0 +1,64 @@
+/* Button.css */
+
+/* Base styles */
+.button-base {
+    color: rgb(164, 247, 164); /* Ensure the color is readable */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    
+    border-radius: 12px; /* Increased border-radius */
+    border-color: rgb(164, 247, 164);
+    font-size: 24px;
+    background-color: transparent;
+    height: auto; /* Adjust height to fit content */
+    padding: 12px 24px; /* Add padding for better spacing */
+}
+
+
+/* Variants */
+.button-default {
+    color: rgb(164, 247, 164); /* Ensure the color is readable */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+
+    border: 5px solid rgb(164, 247, 164); /* Add border */
+    border-radius: 12px; /* Increased border-radius */
+    font-size: 24px;
+    background-color: transparent;
+    height: auto; /* Adjust height to fit content */
+    padding: 12px 24px; /* Add padding for better spacing */
+}
+
+.button-default:active {
+    background-color: rgb(164, 247, 164);
+    color: #c54b8c;
+    border-color: #c54b8c;
+}
+
+/* Sizes */
+.button-size-default {
+    height: 15px;
+    padding: 4px 2px;
+}
+
+.button-size-sm {
+    height: 8px;
+    padding: 3px;
+    font-size: 12px;
+}
+
+.button-size-lg {
+    height: 45px;
+    padding: 8px;
+}
+
+.button-size-icon {
+    width: 9px;
+    height: 9px;
+}
